@@ -39,6 +39,12 @@
         "xprezzo-buffer": "1.1.1",
         "tape": "^5.0.1"
     },
+    "files": [
+        "LICENSE",
+        "HISTORY.md",
+        "README.md",
+        "lib/"
+    ],
     "scripts": {
         "lint": "eslint --plugin markdown --ext js,md .",
         "test": "mocha --check-leaks --reporter spec --bail",
